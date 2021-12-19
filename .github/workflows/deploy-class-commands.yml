@@ -1,9 +1,7 @@
 name: "Deploy Case Study"
 
-on:
-  push:
-    tags:
-      - "case-study/v*"
+on: push
+
 env:
  PROJECT_PATH: CaseStudy/CaseStudy.csproj
 jobs:
